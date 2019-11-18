@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\PalindromicString.Tests\\palindromicstring.tests.csproj": {}
+  },
+  "projects": {
+    "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\palindromicstring.functions\\palindromicstring.functions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\palindromicstring.functions\\palindromicstring.functions.csproj",
+        "projectName": "palindromicstring.functions",
+        "projectPath": "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\palindromicstring.functions\\palindromicstring.functions.csproj",
+        "packagesPath": "C:\\Users\\virut\\.nuget\\packages\\",
+        "outputPath": "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\palindromicstring.functions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\virut\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\PalindromicString.Tests\\palindromicstring.tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\PalindromicString.Tests\\palindromicstring.tests.csproj",
+        "projectName": "palindromicstring.tests",
+        "projectPath": "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\PalindromicString.Tests\\palindromicstring.tests.csproj",
+        "packagesPath": "C:\\Users\\virut\\.nuget\\packages\\",
+        "outputPath": "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\PalindromicString.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\virut\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\palindromicstring.functions\\palindromicstring.functions.csproj": {
+                "projectPath": "C:\\CQ\\PalindromicSubstring\\LongestPalindromicSubstring\\palindromicstring.functions\\palindromicstring.functions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
